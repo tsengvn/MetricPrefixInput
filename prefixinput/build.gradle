@@ -8,10 +8,10 @@ ext {
     libraryName = 'prefixinput'
     artifact = 'prefixinput'
 
-    libraryDescription = 'Replce textview style with custom font'
+    libraryDescription = 'A Custom EditText that auto convert number into metric prefix format'
 
-    siteUrl = 'https://github.com/tsengvn/typekit'
-    gitUrl = 'https://github.com/tsengvn/typekit.git'
+    siteUrl = 'https://github.com/tsengvn/MetricPrefixInput'
+    gitUrl = 'https://github.com/tsengvn/MetricPrefixInput.git'
 
     libraryVersion = '1.0.1'
 

@@ -24,7 +24,7 @@ public class PrefixMetricInput extends AppCompatEditText {
 
     private BigDecimal mValue = BigDecimal.valueOf(0d);
     private DecimalFormat mDecimalFormat = new DecimalFormat("#.##");
-    private GIVNNumberFilter mNumberFilter = new GIVNNumberFilter();
+    private NumberFilter mNumberFilter = new NumberFilter();
 
     private NumberListener mNumberListener;
 
@@ -129,7 +129,7 @@ public class PrefixMetricInput extends AppCompatEditText {
         }
     }
 
-    class GIVNNumberFilter implements InputFilter {
+    class NumberFilter implements InputFilter {
 
         @Override
         public CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) {
